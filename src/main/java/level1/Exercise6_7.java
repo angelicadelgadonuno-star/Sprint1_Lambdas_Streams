@@ -14,12 +14,14 @@ public class Exercise6_7 {
 
     public List<Object> getSortedByLengthAscending() {
         return getMixtList().stream().sorted(Comparator.comparingInt
-                (o->String.valueOf(o).length())).collect(Collectors.toList());
+                (o -> String.valueOf(o).length())).collect(Collectors.toList());
     }
 
-
-
-
+    public List<Object> getSortedByLengthDescending() {
+        return getMixtList().stream().sorted(Comparator.comparingInt
+                ((Object o) -> String.valueOf(o).length()).reversed())
+                .collect(Collectors.toList());
+    }
 
 
 }

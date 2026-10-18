@@ -28,6 +28,10 @@ public class Main {
         System.out.println("--- Exercise 6: sorted list by ascending length ---");
         Exercise6_7 ext6 = new Exercise6_7();
         System.out.println(ext6.getSortedByLengthAscending());
+
+        System.out.println("--- Exercise 7: sorted list by descending length ---");
+        Exercise6_7 ext7 = new Exercise6_7();
+        System.out.println(ext7.getSortedByLengthDescending());
     }
 
 }
