@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class Exercice1 {
+public class Exercise1 {
 
    public void stringsWithLetterO() {
        List<String> words = Arrays.asList("hello","help", "world", "ball", "ground", "logic", "happy");
