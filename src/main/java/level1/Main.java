@@ -24,5 +24,10 @@ public class Main {
         System.out.println("--- Exercise 4: Print months with Method Reference ---");
         Exercise3_4 ext4 = new Exercise3_4();
         ext4.printMonthsWithMethodReference();
+
+        System.out.println("--- Exercise 6: sorted list by ascending length ---");
+        Exercise6_7 ext6 = new Exercise6_7();
+        System.out.println(ext6.getSortedByLengthAscending());
     }
+
 }
