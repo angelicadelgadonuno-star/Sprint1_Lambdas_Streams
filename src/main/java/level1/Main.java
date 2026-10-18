@@ -16,5 +16,9 @@ public class Main {
         List<String> result2 = secondFilteredStream.wordsWithOAndLongerThan5();
         System.out.println("--- Words containing letter 'o' and are longer that 5 letters ---");
         System.out.println(result2);
+
+        System.out.println("---Exercise 3: Print months with Lambda ---");
+        Exercise3_4 ext3 = new Exercise3_4();
+        ext3.printMonthsWithLambda();
     }
 }
