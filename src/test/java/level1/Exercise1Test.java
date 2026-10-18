@@ -12,8 +12,9 @@ class Exercise1Test {
     void filteredStringOfWordsReturnsWordsWithLetterO() {
         Exercise1 words = new Exercise1();
         List<String> result = words.wordsWithLetterO();
-       assertTrue(result.contains("hello"));
-       assertFalse(result.contains("happy"));
+       assertTrue(result.contains("hello"),"Should contain 'hello'");
+       assertTrue(result.contains("world"), "Should contain 'world'");
+       assertFalse(result.contains("happy"), "Should NOT contain 'happy'");
 
     }
 }
