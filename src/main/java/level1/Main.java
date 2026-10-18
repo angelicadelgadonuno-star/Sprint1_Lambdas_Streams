@@ -17,8 +17,12 @@ public class Main {
         System.out.println("--- Words containing letter 'o' and are longer that 5 letters ---");
         System.out.println(result2);
 
-        System.out.println("---Exercise 3: Print months with Lambda ---");
+        System.out.println("--- Exercise 3: Print months with Lambda ---");
         Exercise3_4 ext3 = new Exercise3_4();
         ext3.printMonthsWithLambda();
+
+        System.out.println("--- Exercise 4: Print months with Method Reference ---");
+        Exercise3_4 ext4 = new Exercise3_4();
+        ext4.printMonthsWithMethodReference();
     }
 }

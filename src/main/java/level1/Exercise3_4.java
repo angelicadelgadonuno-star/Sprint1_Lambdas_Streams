@@ -12,4 +12,11 @@ public class Exercise3_4 {
     months.forEach(month-> System.out.println(month));
 
     }
+    public void printMonthsWithMethodReference() {
+        List<String> months = Arrays.asList("January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December");
+
+        months.forEach(System.out::println);
+
+    }
 }
