@@ -7,7 +7,7 @@ public class Main {
 
         Exercise1 filteredStream = new Exercise1();
 
-        List<String> result = filteredStream.stringsWithLetterO();
+        List<String> result = filteredStream.wordsWithLetterO();
         System.out.println(result);
     }
 }

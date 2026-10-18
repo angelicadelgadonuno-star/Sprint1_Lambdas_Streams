@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Exercise1 {
 
-    public List<String> stringsWithLetterO() {
+    public List<String> wordsWithLetterO() {
         List<String> words = Arrays.asList("hello", "help", "world", "ball", "ground", "logic", "happy");
 
         List<String> filteredWords = words.stream()
