@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Exercise1 {
 
-    public List<String> names = Arrays.asList("Angelica", "Manuela", "Ana", "Antonio", "Ali", "Aaron", "Martin", "Ari");
+    private List<String> names = Arrays.asList("Angelica", "Manuela", "Ana", "Antonio", "ali", "Aaron", "Martin", "Ari", "Amy");
 
     public List<String> sortNamesStartingWithAAndHaveExactlyThreeLetters() {
         return names.stream().filter(name -> name.startsWith("A"))
