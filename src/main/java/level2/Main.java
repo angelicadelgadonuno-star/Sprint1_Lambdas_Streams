@@ -1,11 +1,9 @@
 package level2;
 
 import java.util.List;
-import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-
 
         Exercise1 filteredNames = new Exercise1();
 

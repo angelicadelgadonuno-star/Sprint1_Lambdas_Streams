@@ -12,5 +12,4 @@ public class Exercise2 {
         return numbers.stream().map(number ->(number % 2 == 0 ? "e" : "o") + String.valueOf(number))
                 .collect(Collectors.joining(", "));
     }
-
 }
