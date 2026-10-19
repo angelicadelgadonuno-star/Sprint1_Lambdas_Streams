@@ -15,6 +15,5 @@ class Exercise1Test {
         assertTrue(result.contains("hello"), "Should contain 'hello'");
         assertTrue(result.contains("world"), "Should contain 'world'");
         assertFalse(result.contains("happy"), "Should NOT contain 'happy'");
-
     }
 }
