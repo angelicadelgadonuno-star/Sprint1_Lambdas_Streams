@@ -22,5 +22,4 @@ public class Exercise6_7 {
                 .collect(Collectors.toList());
     }
 
-
 }
